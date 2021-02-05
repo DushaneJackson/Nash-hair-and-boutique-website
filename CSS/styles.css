@@ -1,0 +1,456 @@
+header {
+    background-color: #a4f6f9;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins';
+    /* background-color: #D4D1E8; */
+}
+
+
+
+
+
+
+
+/* MAIN LOGO */
+
+
+.headericons {
+    text-align: center;
+}
+
+
+.homepagemain {
+    text-align: center;
+
+
+}
+
+.homepage-model {
+    width: 40%;
+    margin-left: 11%;
+
+
+}
+
+.homepage-text {
+    display: inline-block;
+    text-align: left;
+
+
+}
+
+#homepage span {
+    font-family: 'allura';
+    font-size: 4rem;
+}
+
+#homepage h2 {
+    font-size: 2rem;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+button a:hover {
+    color: white;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+.navbar-brand {
+    width: 10%;
+}
+
+.nav-logo {
+    width: 5rem;
+}
+
+.main-logo {
+    width: 30%;
+    display: block;
+    margin: 10% auto;
+
+}
+
+.title-text {
+    font-family: 'allura';
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5%;
+    color: #2e2e2e;
+}
+
+.aboutme-text {
+    text-align: center;
+    padding: 10%;
+    margin-top: 25px;
+    color: #2e2e2e;
+}
+
+.service-row {
+    padding-top: 5%;
+}
+
+.service-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .2s;
+}
+
+.service-image:hover {
+    transform: translateY(-10px);
+}
+
+.service-title,
+.service-text {
+    text-align: center;
+    padding: 5% 10% 0 10%;
+    color: #2e2e2e;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: #ff99fe;
+    border: none;
+    transition: .3s;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15)
+}
+
+.btn-secondary:hover {
+    background-color: #ffc1fe;
+    color: black;
+}
+
+.btn-secondary:focus {
+    background-color: #ffc1fe;
+    color: black;
+}
+
+
+
+.elem-center {
+    text-align: center
+}
+
+.col-align {
+    padding-top: 7%;
+}
+
+
+
+.appoint-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2e2e2e;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+hr {
+    width: 10%;
+    margin: 0 auto;
+
+}
+
+.bookme-btncenter {
+    text-align: center;
+}
+
+.bookus-btn {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+.form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5% 0;
+    border: 1px;
+    padding: 20px;
+    background: #f1f1f1;
+    color: #2e2e2e;
+
+
+}
+
+.form-text:focus {
+    outline: 0 none;
+}
+
+.form-btn {
+    float: right;
+    padding: 8px 30px;
+    background-color: #ff99fe;
+    color: #2e2e2e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    bottom: 1em;
+    border: none;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15)
+}
+
+.form-btn:hover {
+    background-color: #ffc1fe;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    padding: 0px 5px;
+    cursor: pointer;
+    color: #2e2e2e;
+    transition: .2s;
+}
+
+.social-icon:hover {
+    color: #2e2e2e;
+}
+
+.social-text {
+    padding-top: 30px;
+    font-size: .7rem;
+    color: #2e2e2e;
+
+}
+
+
+.faqs {
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.btnpaddingtop {
+    margin-top: 4%;
+
+}
+
+.accordion-button {
+    padding: 2% 0;
+}
+
+/* IDS */
+
+#homepage {
+    background-color: #a4f6f9;
+}
+
+#title {
+    background-color: #a4f6f9;
+}
+
+#storypage {
+    background-color: #e4fffe;
+    padding: 7% 0%;
+}
+
+#services {
+    padding: 7% 15%;
+    background-color: #a4f6f9;
+}
+
+#appointment {
+    padding: 7% 15%;
+    background-color: #e4fffe;
+}
+
+#contact-me {
+    background-color: #a4f6f9;
+    margin: auto;
+    padding: 7% 15%;
+    overflow: hidden;
+}
+
+#socials {
+    background-color: #e4fffe;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#faqpage {
+    padding: 7% 15% 0;
+    background-color: #e4fffe;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 990px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 90px;
+        top: 40px;
+    }
+
+    .homepage-model {
+        width: 50%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .col-align {
+        padding-top: 18%;
+    }
+
+    #homepage h2 {
+        font-size: 20px;
+    }
+
+    #homepage span {
+        font-size: 40px;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 45px;
+        top: 40px;
+    }
+
+    .homepage-model {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col-align {
+        padding-top: 18%;
+    }
+
+    #homepage h2 {
+        font-size: 20px;
+    }
+
+    #homepage span {
+        font-size: 40px;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 45px;
+        top: 40px;
+    }
+
+    .homepage-model {
+        width: 50%;
+    }
+}
+
+@media only screen and (width : 375px) and (height : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+    .homepage-text {
+        position: relative;
+
+    }
+
+    .homepage-model {
+        margin: 0;
+        width: 45%;
+        position: relative;
+        right: 20px;
+    }
+
+    #homepage h2 {
+        margin: 0;
+    }
+
+    .homepage-text {
+        width: 200px;
+        height: 168px;
+    }
+}
+
+@media only screen and (width : 414px) and (height : 736px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+    .homepage-text {
+        position: relative;
+
+    }
+
+    .homepage-model {
+        margin: 0;
+        width: 45%;
+        position: relative;
+        right: 20px;
+    }
+
+    #homepage h2 {
+        margin: 0;
+    }
+
+    .homepage-text {
+        width: 200px;
+        height: 168px;
+    }
+}
+
+@media only screen and (width : 375px) and (height : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait) {
+    .homepage-text {
+        position: relative;
+
+    }
+
+    .homepage-model {
+        margin: 0;
+        width: 45%;
+        position: relative;
+        right: 20px;
+    }
+
+    #homepage h2 {
+        margin: 0;
+    }
+
+    .homepage-text {
+        width: 200px;
+        height: 168px;
+    }
+}
+
+@media only screen and (width : 601px) and (height : 651px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait) {
+    .homepage-text {
+        position: relative;
+
+    }
+
+    #homepage h2 {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    #homepage span {
+        font-size: 2.5rem;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 60px;
+    }
+}
