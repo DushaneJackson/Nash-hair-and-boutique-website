@@ -1,5 +1,3 @@
-
-
 header {
     background-color: #a4f6f9;
 }
@@ -430,7 +428,7 @@ footer ul {
 }
 
 .footer-col h4 {
-position: relative;
+    position: relative;
 
 }
 
@@ -540,6 +538,11 @@ position: relative;
         width: 40%;
     }
 
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
 
 
 }
@@ -566,29 +569,10 @@ position: relative;
     .homepage-model {
         width: 50%;
     }
-}
 
-@media screen and (max-width: 600px) {
-    .col-align {
-        padding-top: 18%;
-    }
-
-    #homepage h2 {
-        font-size: 20px;
-    }
-
-    #homepage span {
-        font-size: 40px;
-    }
-
-    .homepage-text {
-        position: relative;
-        left: 45px;
-        top: 40px;
-    }
-
-    .homepage-model {
-        width: 50%;
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 
@@ -680,4 +664,84 @@ position: relative;
         position: relative;
         left: 60px;
     }
+
+}
+
+@media screen and (max-width: 461px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 50px;
+        top: 40px;
+    }
+
+    .homepage-model {
+        width: 40%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 367px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 40px;
+        top: 20px;
+    }
+
+    .homepage-model {
+        width: 40%;
+    }
+
+    #homepage h2 {
+        font-size: 15px;
+    }
+
+    #homepage span {
+        font-size: 35px;
+    }
+
+    #homepage button {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 305px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .homepage-text {
+        position: relative;
+        left: 25px;
+        top: 0px;
+    }
+
+    .homepage-model {
+        width: 40%;
+    }
+
+    #homepage h2 {
+        font-size: 10px;
+    }
+
+    #homepage span {
+        font-size: 20px;
+    }
+
+    #homepage button {
+        font-size: 10px;
+    }
+
+
+
 }
