@@ -411,8 +411,9 @@ footer ul {
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
+    padding: 0% 15%;
 }
 
 .footer-row {
@@ -422,7 +423,7 @@ footer ul {
 }
 
 .footer-col {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     width: 25%;
     text-decoration: none;
 }
@@ -544,6 +545,14 @@ footer ul {
     }
 
 
+
+}
+
+@media(max-width: 695px ) {
+      .footer-col {
+          width: 100%;
+          margin-bottom: 30px;
+      }
 
 }
 
