@@ -12,6 +12,10 @@ header {
 
 
 
+
+
+
+
 /* MAIN LOGO */
 
 
@@ -107,7 +111,17 @@ img {
     width: 100%;
 }
 
+.masonry {
+    column-count: 4;
+    column-gap: 16px;
+    padding-top: 5%;
+}
 
+.masonry .mItem {
+    display: inline-block;
+    margin-bottom: 16px;
+    width: 100%;
+}
 
 @media (max-width: 1199px) {
     .masonry {
